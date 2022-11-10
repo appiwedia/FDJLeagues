@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30919229291D718E00D6D608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30919228291D718E00D6D608 /* AppDelegate.swift */; };
+		3091922B291D718E00D6D608 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3091922A291D718E00D6D608 /* SceneDelegate.swift */; };
+		3091922D291D718E00D6D608 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3091922C291D718E00D6D608 /* ViewController.swift */; };
+		30919230291D718E00D6D608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3091922E291D718E00D6D608 /* Main.storyboard */; };
+		30919232291D718F00D6D608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30919231291D718F00D6D608 /* Assets.xcassets */; };
+		30919235291D718F00D6D608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30919233291D718F00D6D608 /* LaunchScreen.storyboard */; };
+		30919240291D718F00D6D608 /* FDJLeaguesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3091923F291D718F00D6D608 /* FDJLeaguesTests.swift */; };
+		3091924A291D719000D6D608 /* FDJLeaguesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30919249291D719000D6D608 /* FDJLeaguesUITests.swift */; };
+		3091924C291D719000D6D608 /* FDJLeaguesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3091924B291D719000D6D608 /* FDJLeaguesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3091923C291D718F00D6D608 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3091921D291D718E00D6D608 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30919224291D718E00D6D608;
+			remoteInfo = FDJLeagues;
+		};
+		30919246291D719000D6D608 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3091921D291D718E00D6D608 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30919224291D718E00D6D608;
+			remoteInfo = FDJLeagues;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30919225291D718E00D6D608 /* FDJLeagues.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FDJLeagues.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30919228291D718E00D6D608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3091922A291D718E00D6D608 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3091922C291D718E00D6D608 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3091922F291D718E00D6D608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30919231291D718F00D6D608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30919234291D718F00D6D608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30919236291D718F00D6D608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3091923B291D718F00D6D608 /* FDJLeaguesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDJLeaguesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3091923F291D718F00D6D608 /* FDJLeaguesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDJLeaguesTests.swift; sourceTree = "<group>"; };
+		30919245291D719000D6D608 /* FDJLeaguesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDJLeaguesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30919249291D719000D6D608 /* FDJLeaguesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDJLeaguesUITests.swift; sourceTree = "<group>"; };
+		3091924B291D719000D6D608 /* FDJLeaguesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDJLeaguesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30919222291D718E00D6D608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30919238291D718F00D6D608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30919242291D718F00D6D608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3091921C291D718E00D6D608 = {
+			isa = PBXGroup;
+			children = (
+				30919227291D718E00D6D608 /* FDJLeagues */,
+				3091923E291D718F00D6D608 /* FDJLeaguesTests */,
+				30919248291D719000D6D608 /* FDJLeaguesUITests */,
+				30919226291D718E00D6D608 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30919226291D718E00D6D608 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30919225291D718E00D6D608 /* FDJLeagues.app */,
+				3091923B291D718F00D6D608 /* FDJLeaguesTests.xctest */,
+				30919245291D719000D6D608 /* FDJLeaguesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30919227291D718E00D6D608 /* FDJLeagues */ = {
+			isa = PBXGroup;
+			children = (
+				30919228291D718E00D6D608 /* AppDelegate.swift */,
+				3091922A291D718E00D6D608 /* SceneDelegate.swift */,
+				3091922C291D718E00D6D608 /* ViewController.swift */,
+				3091922E291D718E00D6D608 /* Main.storyboard */,
+				30919231291D718F00D6D608 /* Assets.xcassets */,
+				30919233291D718F00D6D608 /* LaunchScreen.storyboard */,
+				30919236291D718F00D6D608 /* Info.plist */,
+			);
+			path = FDJLeagues;
+			sourceTree = "<group>";
+		};
+		3091923E291D718F00D6D608 /* FDJLeaguesTests */ = {
+			isa = PBXGroup;
+			children = (
+				3091923F291D718F00D6D608 /* FDJLeaguesTests.swift */,
+			);
+			path = FDJLeaguesTests;
+			sourceTree = "<group>";
+		};
+		30919248291D719000D6D608 /* FDJLeaguesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30919249291D719000D6D608 /* FDJLeaguesUITests.swift */,
+				3091924B291D719000D6D608 /* FDJLeaguesUITestsLaunchTests.swift */,
+			);
+			path = FDJLeaguesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30919224291D718E00D6D608 /* FDJLeagues */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3091924F291D719000D6D608 /* Build configuration list for PBXNativeTarget "FDJLeagues" */;
+			buildPhases = (
+				30919221291D718E00D6D608 /* Sources */,
+				30919222291D718E00D6D608 /* Frameworks */,
+				30919223291D718E00D6D608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDJLeagues;
+			productName = FDJLeagues;
+			productReference = 30919225291D718E00D6D608 /* FDJLeagues.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3091923A291D718F00D6D608 /* FDJLeaguesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30919252291D719000D6D608 /* Build configuration list for PBXNativeTarget "FDJLeaguesTests" */;
+			buildPhases = (
+				30919237291D718F00D6D608 /* Sources */,
+				30919238291D718F00D6D608 /* Frameworks */,
+				30919239291D718F00D6D608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3091923D291D718F00D6D608 /* PBXTargetDependency */,
+			);
+			name = FDJLeaguesTests;
+			productName = FDJLeaguesTests;
+			productReference = 3091923B291D718F00D6D608 /* FDJLeaguesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30919244291D718F00D6D608 /* FDJLeaguesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30919255291D719000D6D608 /* Build configuration list for PBXNativeTarget "FDJLeaguesUITests" */;
+			buildPhases = (
+				30919241291D718F00D6D608 /* Sources */,
+				30919242291D718F00D6D608 /* Frameworks */,
+				30919243291D718F00D6D608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30919247291D719000D6D608 /* PBXTargetDependency */,
+			);
+			name = FDJLeaguesUITests;
+			productName = FDJLeaguesUITests;
+			productReference = 30919245291D719000D6D608 /* FDJLeaguesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3091921D291D718E00D6D608 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					30919224291D718E00D6D608 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					3091923A291D718F00D6D608 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 30919224291D718E00D6D608;
+					};
+					30919244291D718F00D6D608 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 30919224291D718E00D6D608;
+					};
+				};
+			};
+			buildConfigurationList = 30919220291D718E00D6D608 /* Build configuration list for PBXProject "FDJLeagues" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3091921C291D718E00D6D608;
+			productRefGroup = 30919226291D718E00D6D608 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30919224291D718E00D6D608 /* FDJLeagues */,
+				3091923A291D718F00D6D608 /* FDJLeaguesTests */,
+				30919244291D718F00D6D608 /* FDJLeaguesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30919223291D718E00D6D608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30919235291D718F00D6D608 /* LaunchScreen.storyboard in Resources */,
+				30919232291D718F00D6D608 /* Assets.xcassets in Resources */,
+				30919230291D718E00D6D608 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30919239291D718F00D6D608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30919243291D718F00D6D608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30919221291D718E00D6D608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3091922D291D718E00D6D608 /* ViewController.swift in Sources */,
+				30919229291D718E00D6D608 /* AppDelegate.swift in Sources */,
+				3091922B291D718E00D6D608 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30919237291D718F00D6D608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30919240291D718F00D6D608 /* FDJLeaguesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30919241291D718F00D6D608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3091924C291D719000D6D608 /* FDJLeaguesUITestsLaunchTests.swift in Sources */,
+				3091924A291D719000D6D608 /* FDJLeaguesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3091923D291D718F00D6D608 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30919224291D718E00D6D608 /* FDJLeagues */;
+			targetProxy = 3091923C291D718F00D6D608 /* PBXContainerItemProxy */;
+		};
+		30919247291D719000D6D608 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30919224291D718E00D6D608 /* FDJLeagues */;
+			targetProxy = 30919246291D719000D6D608 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3091922E291D718E00D6D608 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3091922F291D718E00D6D608 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30919233291D718F00D6D608 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30919234291D718F00D6D608 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3091924D291D719000D6D608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3091924E291D719000D6D608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30919250291D719000D6D608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AZ93CK4F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FDJLeagues/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appiwedia.apps.ios.FDJLeagues;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30919251291D719000D6D608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AZ93CK4F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FDJLeagues/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appiwedia.apps.ios.FDJLeagues;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30919253291D719000D6D608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AZ93CK4F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appiwedia.apps.ios.FDJLeaguesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDJLeagues.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FDJLeagues";
+			};
+			name = Debug;
+		};
+		30919254291D719000D6D608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AZ93CK4F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appiwedia.apps.ios.FDJLeaguesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FDJLeagues.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FDJLeagues";
+			};
+			name = Release;
+		};
+		30919256291D719000D6D608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AZ93CK4F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appiwedia.apps.ios.FDJLeaguesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FDJLeagues;
+			};
+			name = Debug;
+		};
+		30919257291D719000D6D608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AZ93CK4F6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appiwedia.apps.ios.FDJLeaguesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FDJLeagues;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30919220291D718E00D6D608 /* Build configuration list for PBXProject "FDJLeagues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3091924D291D719000D6D608 /* Debug */,
+				3091924E291D719000D6D608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3091924F291D719000D6D608 /* Build configuration list for PBXNativeTarget "FDJLeagues" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30919250291D719000D6D608 /* Debug */,
+				30919251291D719000D6D608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30919252291D719000D6D608 /* Build configuration list for PBXNativeTarget "FDJLeaguesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30919253291D719000D6D608 /* Debug */,
+				30919254291D719000D6D608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30919255291D719000D6D608 /* Build configuration list for PBXNativeTarget "FDJLeaguesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30919256291D719000D6D608 /* Debug */,
+				30919257291D719000D6D608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3091921D291D718E00D6D608 /* Project object */;
+}
