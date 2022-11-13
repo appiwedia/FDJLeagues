@@ -14,4 +14,11 @@ public struct TeamResponse: Codable {
     public init(teams: [Team]) {
         self.teams = teams
     }
+
+    public init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        if let teams = try container.decodeIfPresent([Team].self, forKey: .teams) {
+            self.teams = teams
+        }
+    }
 }
