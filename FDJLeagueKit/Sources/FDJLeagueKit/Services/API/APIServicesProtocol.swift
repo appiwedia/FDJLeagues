@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol APIServicesProtocol {
+public protocol APIServicesProtocol {
     func fetchAllLeagues() async throws -> [League] // API 1
     func fetchTeams(for league: League) async throws -> [Team] // API 2
     func fetchTeamDetail(for team: Team) async throws -> Team // API 3
@@ -22,10 +22,10 @@ enum APIServicesError: Error {
     case noResults
 }
 
-class SportDBServicesAPI: APIServicesProtocol {
-    static let shared = SportDBServicesAPI()
+public class SportDBServicesAPI: APIServicesProtocol {
+    public static let shared = SportDBServicesAPI()
 
-    func fetchAllLeagues() async throws -> [League] {
+    public func fetchAllLeagues() async throws -> [League] {
         guard let url = URL(string: "https://www.thesportsdb.com/api/v1/json/50130162/all_leagues.php") else {
             throw URLError(.badURL)
         }
@@ -37,7 +37,7 @@ class SportDBServicesAPI: APIServicesProtocol {
         return response.leagues
     }
     
-    func fetchTeams(for league: League) async throws -> [Team] {
+    public func fetchTeams(for league: League) async throws -> [Team] {
 
         guard let leagueName = league.name else {
             throw APIServicesError.invalidLeagueName
@@ -65,7 +65,7 @@ class SportDBServicesAPI: APIServicesProtocol {
         }
     }
 
-    func fetchTeamDetail(for team: Team) async throws -> Team {
+    public func fetchTeamDetail(for team: Team) async throws -> Team {
 
         guard let teamName = team.name else {
             throw APIServicesError.invalidTeamName
@@ -87,22 +87,5 @@ class SportDBServicesAPI: APIServicesProtocol {
         default:
             return response.teams[0] // This response may content more than one result (ex: Bournemouth)
         }
-    }
-}
-
-class MockServicesAPI: APIServicesProtocol {
-
-    static let shared = MockServicesAPI()
-
-    func fetchAllLeagues() async throws -> [League] {
-        return [League(id: 2, name: "Ligue 1", sport: "Football", leagueAlternate: "Uber Eats")]
-    }
-
-    func fetchTeams(for league: League) async throws -> [Team] {
-        [Team(id: 1, name: "PSG", bannerImageUrl: nil, country: "France", league: "Ligue 1", descriptionEN: "LE PSG est le club de la capitale")]
-    }
-
-    func fetchTeamDetail(for team: Team) async throws -> Team {
-        Team(id: 1, name: "PSG", bannerImageUrl: nil, country: "France", league: "Ligue 1", descriptionEN: "LE PSG est le club de la capitale")
     }
 }

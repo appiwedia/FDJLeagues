@@ -72,3 +72,15 @@ public struct Team: Codable, Hashable {
         try container.encodeIfPresent(self.descriptionEN, forKey: .descriptionEN)
     }
 }
+
+extension Team {
+    public static var sampleTeams: [Team] {
+        [
+            Team(id: 1, name: "PSG", bannerImageUrl: nil, country: "France", league: "Ligue 1", descriptionEN: nil),
+            Team(id: 2, name: "FC Nantes", bannerImageUrl: nil, country: "France", league: "Ligue 1", descriptionEN: nil),
+            Team(id: 3, name: "OM", bannerImageUrl: nil, country: "France", league: "Ligue 1", descriptionEN: nil),
+            Team(id: 4, name: "Monaco", bannerImageUrl: nil, country: "France", league: "Ligue 1", descriptionEN: nil),
+            Team(id: 5, name: "Lens", bannerImageUrl: nil, country: "France", league: "Ligue 1", descriptionEN: nil)
+        ]
+    }
+}

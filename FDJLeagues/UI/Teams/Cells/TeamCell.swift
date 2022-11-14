@@ -7,6 +7,7 @@
 
 import UIKit
 import Kingfisher
+import FDJLeagueKit
 
 class TeamCell: UICollectionViewCell {
     static let reuseIdentifier = "teamCell"

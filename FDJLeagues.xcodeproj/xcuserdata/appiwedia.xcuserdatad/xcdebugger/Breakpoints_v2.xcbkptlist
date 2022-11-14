@@ -7,22 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0B788037-6CCD-4DAC-AE79-4467423E6BED"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FDJLeagues/UI/Leagues/LeaguesViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "fetchAllLeagues()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "D275F050-B741-465F-84A0-2EA0953793A7"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -30,8 +14,8 @@
             filePath = "FDJLeagues/UI/Leagues/LeaguesViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
             landmarkName = "filterLeaguesForSearchText(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -46,8 +30,8 @@
             filePath = "FDJLeagues/UI/Leagues/LeaguesViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "filterLeaguesForSearchText(_:)"
             landmarkType = "7">
             <Locations>
@@ -94,8 +78,8 @@
             filePath = "FDJLeagues/UI/Leagues/LeaguesViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "200"
-            endingLineNumber = "200"
+            startingLineNumber = "201"
+            endingLineNumber = "201"
             landmarkName = "didSelectLeague(league:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -110,8 +94,8 @@
             filePath = "FDJLeagues/UI/Leagues/LeaguesViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "181"
-            endingLineNumber = "181"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
             landmarkName = "updateSearchResults(for:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -126,8 +110,8 @@
             filePath = "FDJLeagues/UI/ResultsTableController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -142,8 +126,8 @@
             filePath = "FDJLeagues/UI/ResultsTableController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
             landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -158,8 +142,8 @@
             filePath = "FDJLeagues/UI/ResultsTableController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -174,8 +158,8 @@
             filePath = "FDJLeagues/UI/Leagues/LeaguesViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "201"
-            endingLineNumber = "201"
+            startingLineNumber = "202"
+            endingLineNumber = "202"
             landmarkName = "didSelectLeague(league:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -206,8 +190,8 @@
             filePath = "FDJLeagues/UI/Leagues/LeaguesViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "116"
-            endingLineNumber = "116"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
             landmarkName = "makeDataSource()"
             landmarkType = "7">
          </BreakpointContent>
@@ -222,8 +206,8 @@
             filePath = "FDJLeagues/UI/Leagues/LeaguesViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "searchText"
             landmarkType = "24">
             <Locations>
@@ -315,8 +299,8 @@
             filePath = "FDJLeagues/UI/Leagues/LeaguesViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "setupObservers()"
             landmarkType = "7">
          </BreakpointContent>
@@ -347,8 +331,8 @@
             filePath = "FDJLeagues/UI/Leagues/LeaguesViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "152"
-            endingLineNumber = "152"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
             <Locations>
@@ -425,8 +409,8 @@
             filePath = "FDJLeagues/UI/Leagues/LeaguesViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "154"
-            endingLineNumber = "154"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -441,88 +425,10 @@
             filePath = "FDJLeagues/UI/Teams/Cells/TeamCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
             landmarkName = "updateCell(with:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A1C46D06-5317-4A20-9F2A-DC9B61A83E83"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FDJLeagues/UI/Leagues/LeaguesViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "fetchTeams(for:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "A1C46D06-5317-4A20-9F2A-DC9B61A83E83 - d7acc7533d91f301"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for FDJLeagues.LeaguesViewModel.fetchTeams(for: FDJLeagues.League) async throws -&gt; Swift.Array&lt;FDJLeagues.Team&gt;"
-                  moduleName = "FDJLeagues"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/appiwedia/Development/iOS/FDJLeagues/FDJLeagues/UI/Leagues/LeaguesViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48"
-                  offsetFromSymbolStart = "56">
-               </Location>
-               <Location
-                  uuid = "A1C46D06-5317-4A20-9F2A-DC9B61A83E83 - 6cd6e67c70e57c58"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(2) await resume partial function for FDJLeagues.LeaguesViewModel.fetchTeams(for: FDJLeagues.League) async throws -&gt; Swift.Array&lt;FDJLeagues.Team&gt;"
-                  moduleName = "FDJLeagues"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/appiwedia/Development/iOS/FDJLeagues/FDJLeagues/UI/Leagues/LeaguesViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48"
-                  offsetFromSymbolStart = "44">
-               </Location>
-               <Location
-                  uuid = "A1C46D06-5317-4A20-9F2A-DC9B61A83E83 - c8c099f5fb46b707"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for FDJLeagues.LeaguesViewModel.fetchTeams(for: FDJLeagues.League) async throws -&gt; Swift.Array&lt;FDJLeagues.Team&gt;"
-                  moduleName = "FDJLeagues"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/appiwedia/Development/iOS/FDJLeagues/FDJLeagues/UI/Leagues/LeaguesViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48"
-                  offsetFromSymbolStart = "36">
-               </Location>
-               <Location
-                  uuid = "A1C46D06-5317-4A20-9F2A-DC9B61A83E83 - c596b0a944231906"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(4) suspend resume partial function for FDJLeagues.LeaguesViewModel.fetchTeams(for: FDJLeagues.League) async throws -&gt; Swift.Array&lt;FDJLeagues.Team&gt;"
-                  moduleName = "FDJLeagues"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/appiwedia/Development/iOS/FDJLeagues/FDJLeagues/UI/Leagues/LeaguesViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48"
-                  offsetFromSymbolStart = "40">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -551,8 +457,8 @@
             filePath = "FDJLeagues/UI/Leagues/LeaguesViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "205"
-            endingLineNumber = "205"
+            startingLineNumber = "206"
+            endingLineNumber = "206"
             landmarkName = "didSelectLeague(league:)"
             landmarkType = "7">
             <Locations>
@@ -646,8 +552,8 @@
             filePath = "FDJLeagues/UI/Leagues/LeaguesViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "170"
-            endingLineNumber = "170"
+            startingLineNumber = "171"
+            endingLineNumber = "171"
             landmarkName = "collectionView(_:didSelectItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -829,84 +735,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "FAC1A224-C482-46AD-B976-7D7D9606DF8D"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FDJLeagues/UI/Leagues/LeaguesViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "fetchTeamDetail(for:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "FAC1A224-C482-46AD-B976-7D7D9606DF8D - 29bd643a1f7078a2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for FDJLeagues.LeaguesViewModel.fetchTeamDetail(for: FDJLeagues.Team) async throws -&gt; FDJLeagues.Team"
-                  moduleName = "FDJLeagues"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/appiwedia/Development/iOS/FDJLeagues/FDJLeagues/UI/Leagues/LeaguesViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "53"
-                  endingLineNumber = "53"
-                  offsetFromSymbolStart = "56">
-               </Location>
-               <Location
-                  uuid = "FAC1A224-C482-46AD-B976-7D7D9606DF8D - d9b3fbd7c2dd179e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(2) await resume partial function for FDJLeagues.LeaguesViewModel.fetchTeamDetail(for: FDJLeagues.Team) async throws -&gt; FDJLeagues.Team"
-                  moduleName = "FDJLeagues"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/appiwedia/Development/iOS/FDJLeagues/FDJLeagues/UI/Leagues/LeaguesViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "53"
-                  endingLineNumber = "53"
-                  offsetFromSymbolStart = "40">
-               </Location>
-               <Location
-                  uuid = "FAC1A224-C482-46AD-B976-7D7D9606DF8D - 73fca3c277d138a4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for FDJLeagues.LeaguesViewModel.fetchTeamDetail(for: FDJLeagues.Team) async throws -&gt; FDJLeagues.Team"
-                  moduleName = "FDJLeagues"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/appiwedia/Development/iOS/FDJLeagues/FDJLeagues/UI/Leagues/LeaguesViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "53"
-                  endingLineNumber = "53"
-                  offsetFromSymbolStart = "36">
-               </Location>
-               <Location
-                  uuid = "FAC1A224-C482-46AD-B976-7D7D9606DF8D - 10d300769be198a5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(4) suspend resume partial function for FDJLeagues.LeaguesViewModel.fetchTeamDetail(for: FDJLeagues.Team) async throws -&gt; FDJLeagues.Team"
-                  moduleName = "FDJLeagues"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/appiwedia/Development/iOS/FDJLeagues/FDJLeagues/UI/Leagues/LeaguesViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "53"
-                  endingLineNumber = "53"
-                  offsetFromSymbolStart = "40">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "AD0A2966-24D4-4745-8AF8-636CB7238B12"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -1040,8 +868,8 @@
             filePath = "FDJLeagues/UI/Leagues/LeaguesViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "168"
-            endingLineNumber = "168"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
             landmarkName = "collectionView(_:didSelectItemAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1056,8 +884,8 @@
             filePath = "FDJLeagues/UI/Leagues/LeaguesViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "setupView()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1072,8 +900,8 @@
             filePath = "FDJLeagues/UI/Leagues/LeaguesViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "187"
-            endingLineNumber = "187"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
             landmarkName = "searchBarCancelButtonClicked(_:)"
             landmarkType = "7">
          </BreakpointContent>

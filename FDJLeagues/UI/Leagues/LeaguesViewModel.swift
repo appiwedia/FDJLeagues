@@ -7,8 +7,9 @@
 
 import Foundation
 import Combine
+import FDJLeagueKit
 
-@MainActor
+
 class LeaguesViewModel: ObservableObject {
 
     private var leagues: [League] = []
@@ -31,6 +32,8 @@ class LeaguesViewModel: ObservableObject {
         }
     }
 
+    // MARK: - Helpers
+
     func filterLeaguesForSearchText(_ searchText: String) -> [League] {
         return leagues.filter { (league: League) -> Bool in
             guard let leagueName = league.name else { return false }
@@ -46,16 +49,18 @@ class LeaguesViewModel: ObservableObject {
 
 extension LeaguesViewModel: APIServicesProtocol {
 
-    func fetchAllLeagues() async throws -> [League] {
+    public func fetchAllLeagues() async throws -> [League] {
         return try await SportDBServicesAPI.shared.fetchAllLeagues()
     }
 
-    func fetchTeams(for league: League) async throws -> [Team] {
-        self.teams = try await SportDBServicesAPI.shared.fetchTeams(for: league)
-        return teams
+    public func fetchTeams(for league: League) async throws -> [Team] {
+        let teams = try await SportDBServicesAPI.shared.fetchTeams(for: league)
+        self.teams = teams.filteredOneOutOfTwo()
+        return self.teams
     }
 
-    func fetchTeamDetail(for team: Team) async throws -> Team {
+    public func fetchTeamDetail(for team: Team) async throws -> Team {
         return try await SportDBServicesAPI.shared.fetchTeamDetail(for: team)
     }
 }
+

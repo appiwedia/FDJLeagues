@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import FDJLeagueKit
 
 class TeamDetailViewModel: ObservableObject {
     private(set) var team: Team?
